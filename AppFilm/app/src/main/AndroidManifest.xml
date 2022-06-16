@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appfilm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppFilm"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".view.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".view.EntertPTP"
+            android:exported="true" />
+        <activity
+            android:name=".view.SendOTP"
+            android:exported="true" />
+        <activity
+            android:name=".view.Register"
+            android:exported="true" />
+        <activity
+            android:name=".view.CinemaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.InforFilmActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.PlayVideoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.AddFeedbackActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.TimeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.SeatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.InfoUser"
+            android:exported="true"
+            android:label="Thông tin" />
+    </application>
+
+</manifest>

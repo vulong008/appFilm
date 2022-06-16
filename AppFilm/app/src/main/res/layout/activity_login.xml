@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.Login2"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/anhphim1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        tools:ignore="MissingConstraints"></ImageView>
+
+    <LinearLayout
+
+
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <com.google.android.material.textfield.TextInputLayout
+
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtTenTaiKhoan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Email hoặc số điện thoại"
+                android:textSize="16sp"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+
+
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+            app:passwordToggleEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/edtMatKhau"
+                android:textSize="16sp"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDangNhap"
+        android:layout_width="308dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_bg"
+        android:text="Đăng Nhập"
+        android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Quên mật khẩu?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:weightSum="12"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:background="@drawable/button_bg"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="1dp"></View>
+        <TextView
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:text="hoặc"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            ></TextView>
+        <View
+            android:background="@drawable/button_bg"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="1dp"></View>
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/btnDangKy"
+        android:layout_width="308dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:text="Đăng ký tài khoản "></androidx.appcompat.widget.AppCompatButton>
+</LinearLayout>

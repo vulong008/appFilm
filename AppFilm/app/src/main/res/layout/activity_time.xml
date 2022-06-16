@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.TimeActivity"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="4"
+            android:id="@+id/txtDate"
+            android:textColor="@color/white"
+            android:text="Chọn ngày"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></TextView>
+        <EditText
+            android:id="@+id/edtNgay"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_weight="6"
+            android:text="06-16-2022"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="4"
+            android:id="@+id/txtTime"
+            android:textColor="@color/white"
+            android:text="Chọn giờ"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></TextView>
+        <EditText
+            android:id="@+id/edtGio"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_weight="6"
+            android:text="20:00:00"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></EditText>
+    </LinearLayout>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnTieptuc"
+        android:text="Tiếp Tục"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+</LinearLayout>

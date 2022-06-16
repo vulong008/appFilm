@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+
+    >
+    <LinearLayout
+        android:id="@+id/lb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/dao"
+            android:layout_width="100dp"
+            android:layout_height="100dp"></ImageView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/click"
+            android:textColor="@color/white"
+            style="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custom_input2"
+            android:text="Upload"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="50dp"></androidx.appcompat.widget.AppCompatButton>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:text="Họ tên"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout
+
+        android:id="@+id/thongtin"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:src="@drawable/icons8_contact_details_40px"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="Thông tin tài khoản"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="155dp"
+            android:src="@drawable/icons8_chevron_right_25px"
+            android:layout_width="25dp"
+            android:layout_height="25dp"></ImageView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="#9F9F9F"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></TextView>
+    <LinearLayout
+        android:id="@+id/doimatkhau"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/icons8_password_40px"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="Thay đổi mật khẩu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="160dp"
+            android:src="@drawable/icons8_chevron_right_25px"
+            android:layout_width="25dp"
+            android:layout_height="25dp"></ImageView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="#9F9F9F"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></TextView>
+    <LinearLayout
+        android:id="@+id/dangxuat"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/icons8_sign_out_40px_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="Đăng xuất"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="225dp"
+            android:src="@drawable/icons8_chevron_right_25px"
+            android:layout_width="25dp"
+            android:layout_height="25dp"></ImageView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="#9F9F9F"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></TextView>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

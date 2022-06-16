@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Home"
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"></item>
+        <item
+            android:title="Phone"
+            android:id="@+id/nav_phone"
+            android:icon="@drawable/ic_phone"></item>
+        <item
+            android:title="Laptop"
+            android:id="@+id/nav_laptop"
+            android:icon="@drawable/ic_laptop"></item>
+        <item
+            android:title="Tablet"
+            android:id="@+id/nav_tablet"
+            android:icon="@drawable/ic_tablet"></item>
+    </group>
+    <item android:title="Account">
+        <menu>
+            <item
+                android:title="My Profile"
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_user_profile"></item>
+            <item
+                android:title="Change Password"
+                android:id="@+id/nav_change_password"
+                android:icon="@drawable/ic_key"></item>
+            <item
+                android:title="Logout"
+                android:id="@+id/navExit"
+                android:icon="@drawable/ic_logout"></item>
+        </menu>
+    </item>
+</menu>

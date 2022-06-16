@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tenDN1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="long"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBarLV"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tenDN1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:max="5"
+        android:numStars="5"
+        android:progressTint="#FFFF8D"
+        android:secondaryProgressTint="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/editTexCVLV"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingBarLV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="left|top"
+        android:overScrollMode="always"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:singleLine="false"
+        android:textSize="23sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+</RelativeLayout>

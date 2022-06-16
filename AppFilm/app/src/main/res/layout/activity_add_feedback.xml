@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+android:background="@color/purple_500"
+    android:padding="2dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/them1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Đánh giá phim"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/feedBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/them1"
+        android:gravity="center"
+        android:text="Vui lòng chọn số sao và để lại lời đánh giá của bạn nhé"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/tenDN"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/feedBack"
+        android:layout_marginStart="130dp"
+        android:background="@color/purple_700"
+        android:hint="Nhập tên để đánh giá"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feedBack"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:max="5"
+        android:numStars="5"
+        android:progressBackgroundTint="@android:color/white"
+        android:progressTint="#FFFF8D"
+        android:rating="0"
+        android:secondaryProgressTint="@android:color/holo_red_dark" />
+
+    <EditText
+        android:id="@+id/editComment"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@id/ratingBar"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/purple_700"
+        android:gravity="left|top"
+        android:hint="Vui lòng viết đánh giá của bạn ở đây nhé"
+        android:inputType="textAutoCorrect|textMultiLine"
+        android:maxLines="5"
+        android:overScrollMode="always"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:singleLine="false"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/btnThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editComment"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/teal_200"
+        android:gravity="center"
+        android:text="Thêm"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Huy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editComment"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/btnThem"
+        android:backgroundTint="@color/teal_200"
+        android:text="Hủy"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Huy"
+        android:gravity="center"
+        android:text="Người xem đã nhận xét"
+        android:textColor="#00C853"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/dg"
+        android:background="#64DD17" />
+
+    <ListView
+        android:id="@+id/listViewFeedBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dg"
+        android:layout_marginTop="20dp"
+        android:cacheColorHint="#00000000"
+        android:divider="#00BFA5"
+        android:dividerHeight="4px" />
+</RelativeLayout>

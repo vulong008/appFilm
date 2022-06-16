@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:title="@string/action_home"
+        android:icon="@drawable/ic_home"
+        ></item>
+    <item
+        android:id="@+id/action_byticket"
+        android:title="@string/action_byticket"
+        android:icon="@drawable/ic_discount"
+        ></item>
+    <item
+        android:id="@+id/action_ticket"
+        android:title="@string/action_ticket"
+        android:icon="@drawable/ic_ticket"
+        ></item>
+    <item
+        android:id="@+id/action_account"
+        android:title="@string/action_account"
+        android:icon="@drawable/ic_account"
+        ></item>
+</menu>

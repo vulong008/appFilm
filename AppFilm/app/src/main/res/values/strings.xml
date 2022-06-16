@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vé Phim</string>
+    <string name="action_home">Trang chủ</string>
+    <string name="action_byticket">Đặt vé</string>
+    <string name="action_account">Tôi</string>
+    <string name="action_ticket">Vé của tôi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

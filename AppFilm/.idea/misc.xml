@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable-v24/ic_account.xml" value="0.1065" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable-v24/oval.xml" value="0.151" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/bg_indicator.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/bg_round.xml" value="0.132" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/bgindicator.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/button5.xml" value="0.121" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/button_bg.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/button_bg1.xml" value="0.132" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/custom_btn_dat_ve.xml" value="0.1355" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/custom_input.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/custom_input2.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/ic_account.xml" value="0.1065" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1015" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.1355" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/ic_star.xml" value="0.132" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/ic_tablet.xml" value="0.1065" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/ic_ticket.xml" value="0.132" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/oval.xml" value="0.151" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/oval2.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/drawable/selector_fieldset_background.xml" value="0.1355" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/activity_account_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/activity_add_feedback.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/activity_all_film_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/activity_entert_ptp.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/activity_information_film2.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/activity_login.xml" value="0.1734375" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/activity_main2.xml" value="0.1734375" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/activity_play_video.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/activity_seat.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/activity_send_otp.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/activity_test_post.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/activity_time.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/bottom_toolbar.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/dong_layout_demo_project_film.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/dong_layout_dv.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/dong_layout_feedback.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/dong_layout_filmcungtheloai.xml" value="0.10462962962962963" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/dropdown_item.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/fragment_cinema.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/fragment_city.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/fragment_user.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/item_category.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/item_list.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/item_photo.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/item_selected.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/layout_header_view.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/layout_profile.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/layout_profile_user.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/line_all_film.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/line_data_film.xml" value="0.17682926829268292" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/line_option_account.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/line_service.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/line_ticket.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/progress_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/service_layout.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/test.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/ticket_activity.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/ticket_layout.xml" value="0.20185185185185187" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/layout/top_toolbar.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/menu/bottom_nav.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/menu/menu_navigation.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/AppFilm/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
